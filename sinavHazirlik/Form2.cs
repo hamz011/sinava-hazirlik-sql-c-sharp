@@ -186,6 +186,7 @@ namespace sinavHazirlik
         }
         private void BUT_delete_Click(object sender, EventArgs e)
         {
+        //merhaba
             if (TXT_id.Text != "")
             {
                 int id = Convert.ToInt32(TXT_id.Text);
