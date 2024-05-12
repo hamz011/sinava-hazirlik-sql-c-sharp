@@ -1,3 +1,15 @@
+/*
+                            NOTLAR
+        **************************************************
+        **************************************************
+        * Bu kod benim Databse ime göre hazırlanmışitır! *
+        *   Siz kendi database inize göre uygulayınız!   *
+        **************************************************
+        **************************************************
+*/
+
+
+
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,11 +30,11 @@ namespace sinav_hazirlik1
             this.KeyPreview = true;
 
         }
-        SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;database=sirket;");
+        SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;database=sirket;");//Buraya kendi Databasenizi yazacaksınız!
         SqlDataAdapter adapter;
         SqlCommand cmd;
         DataTable dataTable;
-        void comeData(string s = "select * from personel")
+        void comeData(string s = "select * from personel")//buradaki 'personel' benim sirket dbv deki Tablom siz kendi tablopnuzun ismini yazınız
         {
             connection.Open();
             adapter = new SqlDataAdapter(s, connection);
@@ -58,19 +70,6 @@ namespace sinav_hazirlik1
             if (TXT_id.Text != string.Empty && TXT_ad.Text != string.Empty && TXT_soyad.Text != string.Empty && TXT_yas.Text != string.Empty && TXT_maas.Text != string.Empty && combo_cins.SelectedItem != null && combo_ulke.SelectedItem != null)
             {
                 int id = int.Parse(TXT_id.Text);
-                //bool isIn = false;
-                //for (int i = 0; i < dataGridView1.Rows.Count; i++)
-                //{
-                //    if (dataGridView1.Rows[i].Cells[0].Value.ToString()== id.ToString())
-                //    {
-                //        MessageBox.Show("Test");
-                //        isIn = true;
-                //        break;
-                //    }
-                //    else continue;
-                //}
-
-
                 try
                 {
                     int yas = int.Parse(TXT_yas.Text);
