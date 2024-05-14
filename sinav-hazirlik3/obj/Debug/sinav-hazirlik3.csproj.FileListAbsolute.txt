@@ -1,0 +1,10 @@
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\bin\Debug\sinav-hazirlik3.exe.config
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\bin\Debug\sinav-hazirlik3.exe
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\bin\Debug\sinav-hazirlik3.pdb
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav-hazirlik3.csproj.AssemblyReference.cache
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav_hazirlik3.Form1.resources
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav_hazirlik3.Properties.Resources.resources
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav-hazirlik3.csproj.GenerateResource.cache
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav-hazirlik3.csproj.CoreCompileInputs.cache
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav-hazirlik3.exe
+C:\Users\hamza\OneDrive\Desktop\Yazılım\C#\sinav-hazirlik3\obj\Debug\sinav-hazirlik3.pdb
